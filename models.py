@@ -18,19 +18,6 @@ class Cell:
         return "Cell ({} {} {})".format(self.player, self.x, self.y)
 
 
-class Neighbour:
-
-    """
-    A neighbour is
-    """
-
-    def __init__(self, player, x, y):
-        self.x = x
-        self.y = y
-        self.id = (self.x, self.y)
-        self.player = player
-        self.id = (self.x, self.y)
-
 class Line:
 
     """
